@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE graphical-info>
+<!--DAGSim Model, created on 周五 1月 8 2021-->
+<!--------------root节点----------------->
+<root>
+<!--------------Project节点，属性name存储Project名字----------------->
+    <Project Name="full-adder">
+	<!--------------Package节点，属性name存储Package名字----------------->
+        <Package Name="add">
+		<!--------------Operator节点（相当于Task），属性name存储名字，节点内部包含 输入 输出 本地变量 DATA 四个子节点----------------->
+            <Operator Name="add">
+			<!--------------输入----------------->
+			<!--------------输入是变量，name为变量名----------------->
+                <Inputs>
+                    <Variable name="i0"/>
+                    <Variable name="i2"/>
+                    <Variable name="i1"/> 
+                </Inputs>
+				<!--------------输出----------------->
+                <Outputs>
+                    <Variable name="o0"/>
+                </Outputs>
+				<!--------------本地变量----------------->
+                <Locals>
+                    <Variable type="bool" name="_L0"/>
+                    <Variable type="bool" name="_L1"/>
+                    <Variable type="bool" name="_L2"/>
+                    <Variable type="bool" name="_L3"/>
+                    <Variable type="bool" name="_L4"/>
+                    <Variable type="bool" name="_L5"/>
+                    <Variable type="bool" name="_L6"/>
+                </Locals>
+                <Data>
+					<!--------------Equation(等式)，一个操作符对应一个等式----------------->
+					<!--------------输入输出端口也对应一个等式----------------->
+					<!--------------等式内部有左右 分别对应等式左右----------------->
+					<!--------------等式有UUID----------------->
+				    <!--------------将输入i0赋值给本地变量_L4----------------->
+                    <Equation>
+                        <Lefts>
+                            <VariableRef Name="_L4"/>
+                        </Lefts>
+                        <Rright>
+                            <IdExpression>
+                                <VariableRef Name="i0"/>
+                            </IdExpression>
+                        </Rright>
+                        <Pragmas>
+                            <ed:Equation Uuid="1b8dc2b7-4d8e-4d65-93f1-8217ebc075af"/>
+                        </Pragmas>
+                    </Equation>
+                    <!--------------将输出O0赋值给本地变量_L2----------------->
+                    <Equation>
+                        <Lefts>
+                            <VariableRef Name="o0"/>
+                        </Lefts>
+                        <Rright>
+							<IdExpression>
+								<VariableRef Name="_L2"/>
+							</IdExpression>
+                        </Rright>
+                        <Pragmas>
+                            <ed:Equation Uuid="d234ab35-68b6-4db5-ad0a-083d89de83ba"/>
+                        </Pragmas>
+                    </Equation>
+	   <!--------------将输入i2赋值给本地变量_L5----------------->
+                    <Equation>
+                        <Lefts>
+                            <VariableRef Name="_L5"/>
+                        </Lefts>
+                        <Rright>
+                            <IdExpression>
+                                <VariableRef Name="i2"/>
+                            </IdExpression>
+                        </Rright>
+                        <Pragmas>
+                            <ed:Equation Uuid="b59a0f31-62bd-4728-9895-3d06995e34c8"/>
+                        </Pragmas>
+                    </Equation>
+	   <!--------------将输入i1赋值给本地变量_L6----------------->
+                    <Equation>
+                        <Lefts>
+                            <VariableRef Name="_L6"/>
+                        </Lefts>
+                        <Rright>
+                            <IdExpression>
+                                <VariableRef Name="i1"/>
+                            </IdExpression>
+                        </Rright>
+                        <Pragmas>
+                            <ed:Equation Uuid="d131a2b7-937d-407a-9f21-1c13c1b26df7"/>
+                        </Pragmas>
+                    </Equation>
+                    <Equation>
+                        <Lefts>
+                            <VariableRef Name="_L1"/>
+                        </Lefts>
+                        <Rright>
+                            <CallExpression>
+	               <!--------------内置Operator逻辑非（相当于runnable），属性name存储，有一个输入，为_L5----------------->
+                                <BuildinOperator Name="Logic_Not">
+                                    <Operands>
+                                        <VariableRef Name="_L5"/>
+                                    </Operands>
+                                </BuildinOperator>
+                            </CallExpression>
+                        </Rright>
+                        <Pragmas>
+                            <ed:Equation Uuid="3c85beb4-7961-4068-a1a5-30d3edc33318"/>
+                        </Pragmas>
+                    </Equation>
+                    <Equation>
+                        <Lefts>
+                            <VariableRef Name="_L2"/>
+                        </Lefts>
+                        <Rright>
+                            <CallExpression>
+                                <!--------------内置Operator逻辑或（相当于runnable），有两个输入，为_L0和_L1----------------->
+                                <BuildinOperator Name="Logic_Or">
+                                    <Operands>
+                                        <VariableRef Name="_L0"/>
+                                        <VariableRef Name="_L1"/>
+                                    </Operands>
+                                </BuildinOperator>
+                            </CallExpression>
+                        </Rright>
+                        <Pragmas>
+                            <ed:Equation Uuid="5a8a1b49-ee7e-4d6d-bb48-ff6b30d8d9f4"/>
+                        </Pragmas>
+                    </Equation>
+                    <Equation>
+                        <Lefts>
+                            <VariableRef Name="_L0"/>
+                        </Lefts>
+                        <Rright>
+                            <CallExpression>
+                                <BuildinOperator Name="Logic_And">
+                                    <Operands>
+                                        <VariableRef Name="_L4"/>
+                                        <VariableRef Name="_L6"/>
+                                    </Operands>
+                                </BuildinOperator>
+                            </CallExpression>
+                        </Rright>
+                        <Pragmas>
+                            <ed:Equation Uuid="bc84a3a7-644e-4a68-a16d-264e7d7a257b"/>
+                        </Pragmas>
+                    </Equation>
+                </Data>
+                <Pragmas>
+                    <Diagrams>
+                        <PresentationElements>
+						<!--------------位置信息，分为操作符位置和线位置，操作符用UUID与上面的等式对应起来----------------->
+						<!--------------Position对应操作符块的左上点----------------->
+						<!--------------edge是连线，使用四个点存储----------------->
+                            <EquationGE presentable="1b8dc2b7-4d8e-4d65-93f1-8217ebc075af">
+                                <Position>
+                                    <Point x="-353" y="-180"/>
+                                </Position>
+                                <Size height="20" width="60">
+                                    <size/>
+                                </Size>
+                            </EquationGE>
+                            <EquationGE presentable="d234ab35-68b6-4db5-ad0a-083d89de83ba">
+                                <Position>
+                                    <Point x="117" y="-45"/>
+                                </Position>
+                                <Size height="20" width="60">
+                                    <size/>
+                                </Size>
+                            </EquationGE>
+                            <EquationGE presentable="b59a0f31-62bd-4728-9895-3d06995e34c8">
+                                <Position>
+                                    <Point x="-349" y="13"/>
+                                </Position>
+                                <Size height="20" width="60">
+                                    <size/>
+                                </Size>
+                            </EquationGE>
+                            <EquationGE presentable="d131a2b7-937d-407a-9f21-1c13c1b26df7">
+                                <Position>
+                                    <Point x="-352" y="-103"/>
+                                </Position>
+                                <Size height="20" width="60">
+                                    <size/>
+                                </Size>
+                            </EquationGE>
+                            <EquationGE presentable="3c85beb4-7961-4068-a1a5-30d3edc33318">
+                                <Position>
+                                    <Point x="-221" y="0"/>
+                                </Position>
+                                <Size height="60" width="60">
+                                    <size/>
+                                </Size>
+                            </EquationGE>
+                            <EquationGE presentable="5a8a1b49-ee7e-4d6d-bb48-ff6b30d8d9f4">
+                                <Position>
+                                    <Point x="-74" y="-47"/>
+                                </Position>
+                                <Size height="60" width="60">
+                                    <size/>
+                                </Size>
+                            </EquationGE>
+                            <EquationGE presentable="bc84a3a7-644e-4a68-a16d-264e7d7a257b">
+                                <Position>
+                                    <Point x="-217" y="-143"/>
+                                </Position>
+                                <Size height="60" width="60">
+                                    <size/>
+                                </Size>
+                            </EquationGE>
+                            <Edge>
+                                <Positions srcEquation="bc84a3a7-644e-4a68-a16d-264e7d7a257b" dstEquation="1b8dc2b7-4d8e-4d65-93f1-8217ebc075af" leftVarIndex="0" rightExprIndex="0">
+                                    <Point x="-323" y="-180"/>
+                                    <Point x="-285" y="-180"/>
+                                    <Point x="-285" y="-153"/>
+                                    <Point x="-247" y="-153"/>
+                                </Positions>
+                            </Edge>
+                            <Edge>
+                                <Positions srcEquation="d234ab35-68b6-4db5-ad0a-083d89de83ba" dstEquation="5a8a1b49-ee7e-4d6d-bb48-ff6b30d8d9f4" leftVarIndex="0" rightExprIndex="0">
+                                    <Point x="-44" y="-47"/>
+                                    <Point x="21.5" y="-47"/>
+                                    <Point x="21.5" y="-45"/>
+                                    <Point x="87" y="-45"/>
+                                </Positions>
+                            </Edge>
+                            <Edge>
+                                <Positions srcEquation="3c85beb4-7961-4068-a1a5-30d3edc33318" dstEquation="b59a0f31-62bd-4728-9895-3d06995e34c8" leftVarIndex="0" rightExprIndex="0">
+                                    <Point x="-319" y="13"/>
+                                    <Point x="-285" y="13"/>
+                                    <Point x="-285" y="0"/>
+                                    <Point x="-251" y="0"/>
+                                </Positions>
+                            </Edge>
+                            <Edge>
+                                <Positions srcEquation="bc84a3a7-644e-4a68-a16d-264e7d7a257b" dstEquation="d131a2b7-937d-407a-9f21-1c13c1b26df7" leftVarIndex="1" rightExprIndex="0">
+                                    <Point x="-322" y="-103"/>
+                                    <Point x="-284.5" y="-103"/>
+                                    <Point x="-284.5" y="-133"/>
+                                    <Point x="-247" y="-133"/>
+                                </Positions>
+                            </Edge>
+                            <Edge>
+                                <Positions srcEquation="5a8a1b49-ee7e-4d6d-bb48-ff6b30d8d9f4" dstEquation="3c85beb4-7961-4068-a1a5-30d3edc33318" leftVarIndex="1" rightExprIndex="0">
+                                    <Point x="-191" y="0"/>
+                                    <Point x="-147.5" y="0"/>
+                                    <Point x="-147.5" y="-37"/>
+                                    <Point x="-104" y="-37"/>
+                                </Positions>
+                            </Edge>
+                            <Edge>
+                                <Positions srcEquation="5a8a1b49-ee7e-4d6d-bb48-ff6b30d8d9f4" dstEquation="bc84a3a7-644e-4a68-a16d-264e7d7a257b" leftVarIndex="0" rightExprIndex="0">
+                                    <Point x="-187" y="-143"/>
+                                    <Point x="-145.5" y="-143"/>
+                                    <Point x="-145.5" y="-57"/>
+                                    <Point x="-104" y="-57"/>
+                                </Positions>
+                            </Edge>
+                        </PresentationElements>
+                    </Diagrams>
+                </Pragmas>
+            </Operator>
+        </Package>
+        <Package Name="adder">
+            <Operator Name="adder1">
+                <Inputs/>
+                <Outputs/>
+                <Locals/>
+                <Data/>
+                <Pragmas>
+                    <Diagrams>
+                        <PresentationElements/>
+                    </Diagrams>
+                </Pragmas>
+            </Operator>
+            <Operator Name="adder2">
+                <Inputs/>
+                <Outputs/>
+                <Locals/>
+                <Data/>
+                <Pragmas>
+                    <Diagrams>
+                        <PresentationElements/>
+                    </Diagrams>
+                </Pragmas>
+            </Operator>
+        </Package>
+    </Project>
+</root>

@@ -1,0 +1,1341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TiXmlParsingData" Collapsed="true">
+    <Position X="26.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAQABAAEAAAAAAAAAAEEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyxmlparser.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractMemoryElement" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractMemoryElement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractProcess" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccessMultiplicity" Collapsed="true">
+    <Position X="28.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AccessMultiplicity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AffinityConstraint" Collapsed="true">
+    <Position X="30.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AffinityConstraint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrivalCurveStimulus" Collapsed="true">
+    <Position X="33.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArrivalCurveStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseObject" Collapsed="true">
+    <Position X="8.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundedTimeDistribution" Collapsed="true">
+    <Position X="9" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BoundedTimeDistribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Channel" Collapsed="true">
+    <Position X="37.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Channel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChannelEvent" Collapsed="true">
+    <Position X="10.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChannelEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChannelEventType" Collapsed="true">
+    <Position X="39" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChannelEventType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classifier" Collapsed="true">
+    <Position X="40.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classifier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clock" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClockFunction" Collapsed="true">
+    <Position X="44.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAwAgAAAAA=</HashCode>
+      <FileName>ClockFunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClockStep" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>ClockStep.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClockStepList" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ClockStepList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonElements" Collapsed="true">
+    <Position X="28.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonElements.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component" Collapsed="true">
+    <Position X="30.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentEvent" Collapsed="true">
+    <Position X="12.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComponentEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentEventType" Collapsed="true">
+    <Position X="32" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComponentEventType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentInstance" Collapsed="true">
+    <Position X="33.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComponentInstance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentInterface" Collapsed="true">
+    <Position X="35.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComponentInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentPort" Collapsed="true">
+    <Position X="37.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComponentPort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentsModel" Collapsed="true">
+    <Position X="39" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComponentsModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentStructure" Collapsed="true">
+    <Position X="40.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComponentStructure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composite" Collapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputationItem" Collapsed="true">
+    <Position X="1.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComputationItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConfigModel" Collapsed="true">
+    <Position X="44.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConfigModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Connector" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstraintsModel" Collapsed="true">
+    <Position X="26.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstraintsModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreClassifier" Collapsed="true">
+    <Position X="28.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoreClassifier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Counter" Collapsed="true">
+    <Position X="30.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Counter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurveType" Collapsed="true">
+    <Position X="32" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CurveType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomEntity" Collapsed="true">
+    <Position X="33.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomEvent" Collapsed="true">
+    <Position X="5.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomProperty" Collapsed="true">
+    <Position X="35.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomProperty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomStimulus" Collapsed="true">
+    <Position X="37.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAgeConstraint" Collapsed="true">
+    <Position X="39" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAgeConstraint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataCoherencyGroup" Collapsed="true">
+    <Position X="40.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataCoherencyGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataRate" Collapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataRate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataRateUnit" Collapsed="true">
+    <Position X="44.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataRateUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSize" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataSize.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSizeUnit" Collapsed="true">
+    <Position X="26.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataSizeUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStability" Collapsed="true">
+    <Position X="28.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStability.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStabilityGroup" Collapsed="true">
+    <Position X="30.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStabilityGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStabilityLevel" Collapsed="true">
+    <Position X="32" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStabilityLevel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataType" Collapsed="true">
+    <Position X="33.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityEvent" Collapsed="true">
+    <Position X="9.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Event" Collapsed="true">
+    <Position X="10.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Event.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventChain" Collapsed="true">
+    <Position X="37.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventChain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventConfig" Collapsed="true">
+    <Position X="39" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventConfig.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventModel" Collapsed="true">
+    <Position X="40.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventSet" Collapsed="true">
+    <Position X="19.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventStimulus" Collapsed="true">
+    <Position X="42.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>EventStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FixedPeriodic" Collapsed="true">
+    <Position X="44.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FixedPeriodic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frequency" Collapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frequency.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FrequencyUnit" Collapsed="true">
+    <Position X="26.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrequencyUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HWModel" Collapsed="true">
+    <Position X="28.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HWModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IAnnotatable" Collapsed="true">
+    <Position X="8.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAnnotatable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IContinuousValueDeviation" Collapsed="true">
+    <Position X="30.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEAAAAAAAAAAAAAAAAAAAAAAgAAEAAABAAgQAAAA=</HashCode>
+      <FileName>IContinuousValueDeviation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDiscreteValueDeviation" Collapsed="true">
+    <Position X="33.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDiscreteValueDeviation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="INamedElement" Collapsed="true">
+    <Position X="35.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>INamedElement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="INamespaceMember" Collapsed="true">
+    <Position X="37.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>INamespaceMember.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterfaceKind" Collapsed="true">
+    <Position X="39" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterfaceKind.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterProcessStimulus" Collapsed="true">
+    <Position X="40.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>InterProcessStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterProcessTrigger" Collapsed="true">
+    <Position X="42.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterProcessTrigger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterruptController" Collapsed="true">
+    <Position X="15.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterruptController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterruptSchedulingAlgorithm" Collapsed="true">
+    <Position X="44.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterruptSchedulingAlgorithm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IReferable" Collapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IReferable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISR" Collapsed="true">
+    <Position X="26.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISR.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISystem" Collapsed="true">
+    <Position X="28.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITaggable" Collapsed="true">
+    <Position X="30.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITaggable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITimeDeviation" Collapsed="true">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITimeDeviation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Label" Collapsed="true">
+    <Position X="32" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Label.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LabelAccess" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LabelAccess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LabelDataStability" Collapsed="true">
+    <Position X="33.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LabelDataStability.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LabelEvent" Collapsed="true">
+    <Position X="8" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LabelEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LabelEventType" Collapsed="true">
+    <Position X="35.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LabelEventType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListObject" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ListObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainInterface" Collapsed="true">
+    <Position X="37.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MappingModel" Collapsed="true">
+    <Position X="39" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MappingModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemoryClassifier" Collapsed="true">
+    <Position X="40.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MemoryClassifier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemoryDefinition" Collapsed="true">
+    <Position X="42.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MemoryDefinition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeAssignment" Collapsed="true">
+    <Position X="44.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeAssignment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeCondition" Collapsed="true">
+    <Position X="25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeCondition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeConditionConjunction" Collapsed="true">
+    <Position X="26.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeConditionConjunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeConditionDisjunction" Collapsed="true">
+    <Position X="28.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeConditionDisjunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeConditionDisjunctionEntry" Collapsed="true">
+    <Position X="30.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeConditionDisjunctionEntry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeLabel" Collapsed="true">
+    <Position X="32" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeLabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeLabelCondition" Collapsed="true">
+    <Position X="33.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeLabelCondition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeValue" Collapsed="true">
+    <Position X="35.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeValue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeValueCondition" Collapsed="true">
+    <Position X="37.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeValueCondition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModeValueList" Collapsed="true">
+    <Position X="39" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeValueList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Namespace" Collapsed="true">
+    <Position X="40.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Namespace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NonAtomicDataCoherency" Collapsed="true">
+    <Position X="42.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NonAtomicDataCoherency.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperatingSystem" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgQAAQQAAAAAAAAAEAAAAEAABAAAAEBAAQAAA=</HashCode>
+      <FileName>OperatingSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsAPIOverhead" Collapsed="true">
+    <Position X="25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAQACAAgAAJAAABAAAAAUAABAEAACAAAkgADQAA=</HashCode>
+      <FileName>OsAPIOverhead.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDataConsistency" Collapsed="true">
+    <Position X="26.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAEAAAAQAAAAAAAAA=</HashCode>
+      <FileName>OsDataConsistency.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsDataConsistencyMode" Collapsed="true">
+    <Position X="28.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OsDataConsistencyMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsEvent" Collapsed="true">
+    <Position X="30.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OsEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsISROverhead" Collapsed="true">
+    <Position X="32" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>OsISROverhead.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsOverhead" Collapsed="true">
+    <Position X="35.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAIAAAgAAAAIAAAAAA=</HashCode>
+      <FileName>OsOverhead.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParameterExtension" Collapsed="true">
+    <Position X="39" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParameterExtension.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PeriodicBurstStimulus" Collapsed="true">
+    <Position X="40.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAAAAgAAAAAAAAAAAAAABQAAAAAAAIAAAAAA=</HashCode>
+      <FileName>PeriodicBurstStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PeriodicStimulus" Collapsed="true">
+    <Position X="42.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAE=</HashCode>
+      <FileName>PeriodicStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PeriodicSyntheticStimulus" Collapsed="true">
+    <Position X="44.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PeriodicSyntheticStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicalSectionConstraint" Collapsed="true">
+    <Position X="25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PhysicalSectionConstraint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Process" Collapsed="true">
+    <Position X="26.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Process.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessChainEvent" Collapsed="true">
+    <Position X="14.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessChainEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessEvent" Collapsed="true">
+    <Position X="17" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessEventType" Collapsed="true">
+    <Position X="28.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessEventType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessingUnitDefinition" Collapsed="true">
+    <Position X="30.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessingUnitDefinition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessPrototype" Collapsed="true">
+    <Position X="32" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessPrototype.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropertyConstraintsModel" Collapsed="true">
+    <Position X="35.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyConstraintsModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualifiedPort" Collapsed="true">
+    <Position X="37.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QualifiedPort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReferableBaseObject" Collapsed="true">
+    <Position X="39" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReferableBaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RelationalOperator" Collapsed="true">
+    <Position X="40.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RelationalOperator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RelativePeriodicStimulus" Collapsed="true">
+    <Position X="42.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RelativePeriodicStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Requirement" Collapsed="true">
+    <Position X="44.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requirement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Runnable">
+    <Position X="21.5" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAgAACQAAAAEAAAAAgAAQAAABAI=</HashCode>
+      <FileName>Runnable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RunnableEvent" Collapsed="true">
+    <Position X="3.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RunnableEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RunnableEventType" Collapsed="true">
+    <Position X="26.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RunnableEventType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RunnableSequencingConstraint" Collapsed="true">
+    <Position X="28.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RunnableSequencingConstraint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SamplingType" Collapsed="true">
+    <Position X="30.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SamplingType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scenario" Collapsed="true">
+    <Position X="32" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAABAABAAAAAAAAAAAAACCAAAAAA=</HashCode>
+      <FileName>Scenario.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scheduler" Collapsed="true">
+    <Position X="14.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Scheduler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchedulerAssociation" Collapsed="true">
+    <Position X="33.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>SchedulerAssociation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchedulingParameters" Collapsed="true">
+    <Position X="35.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SchedulingParameters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Section" Collapsed="true">
+    <Position X="37.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Section.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Semaphore" Collapsed="true">
+    <Position X="39" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAACAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Semaphore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemaphoreType" Collapsed="true">
+    <Position X="40.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemaphoreType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingleStimulus" Collapsed="true">
+    <Position X="42.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SingleStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StimuliModel" Collapsed="true">
+    <Position X="44.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAARAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>StimuliModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stimulus" Collapsed="true">
+    <Position X="25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Stimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StimulusEvent" Collapsed="true">
+    <Position X="1.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StimulusEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubInterface" Collapsed="true">
+    <Position X="26.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System" Collapsed="true">
+    <Position X="28.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>System.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tag" Collapsed="true">
+    <Position X="30.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Tag.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskAllocation" Collapsed="true">
+    <Position X="33.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAABABAA=</HashCode>
+      <FileName>TaskAllocation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskScheduler" Collapsed="true">
+    <Position X="13.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAABAAAAAAABAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TaskScheduler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskSchedulingAlgorithm" Collapsed="true">
+    <Position X="35.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TaskSchedulingAlgorithm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ticks" Collapsed="true">
+    <Position X="2.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ticks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicksEntry" Collapsed="true">
+    <Position X="37.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>TicksEntry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Time" Collapsed="true">
+    <Position X="39" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Time.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeBetaDistribution" Collapsed="true">
+    <Position X="13.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeBetaDistribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeBoundaries" Collapsed="true">
+    <Position X="4.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeBoundaries.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeConstant" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeConstant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeGaussDistribution" Collapsed="true">
+    <Position X="20.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeGaussDistribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeHistogram" Collapsed="true">
+    <Position X="22.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeHistogram.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeHistogramEntry" Collapsed="true">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeHistogramEntry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeInterval" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeInterval.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeStatistics" Collapsed="true">
+    <Position X="6.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeStatistics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeUniformDistribution" Collapsed="true">
+    <Position X="9" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeUniformDistribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeUnit" Collapsed="true">
+    <Position X="40.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEAAAAAAAEAAAAAAAQAAAAAAAAAICAAAAAAAAA=</HashCode>
+      <FileName>TimeUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeWeibullEstimatorsDistribution" Collapsed="true">
+    <Position X="11.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimeWeibullEstimatorsDistribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimingConstraint" Collapsed="true">
+    <Position X="42.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimingConstraint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlString" Collapsed="true">
+    <Position X="5.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAEAAAlAsICAQACAAEAAIIAiQExCAABAAA=</HashCode>
+      <FileName>tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlOutStream" Collapsed="true">
+    <Position X="5.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlVisitor" Collapsed="true">
+    <Position X="4.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAgAA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlBase" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAgggBQAEAgEAAAQAgBhABASADAQAiAIAAAiAAAkAAA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlNode" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAIAEAEiiBAhEAAYQAEAAqBgCECAYtgAAtAIDA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttribute" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQggAAAgAAQggAEAABAAQQAAAIEAGQAAABgQAIEEAA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttributeSet" Collapsed="true">
+    <Position X="44.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAQAAQAAABAAAAAAJAAAAACAiQAAAAAA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlElement" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAACACQAAJAAAAIIEAgQSAAA0BCBAgAAAEIFE=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlComment" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAIAAAAAAAAAAAAAAAQAAAAAAAAEIAAAgAAAEIBA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlText" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAABAAAAAAAAEAAAABAAAABgAEAAAAgAAAEIBQ=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDeclaration" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAgACCAAAQAAAAAAAAAAAAAgAAAAIEAAAIoAAAEKBA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlUnknown" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAEAAAAAAAAAAAAACAAAAAAEAAAAgAIAEIBA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDocument" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAABBAQAQABAgEICAAAAAEQBAEBFAAgAEgUJBA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlHandle" Collapsed="true">
+    <Position X="25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAEAAAIAAAEgAIAABAAAAAAAAAIEoCAEAABA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlPrinter" Collapsed="true">
+    <Position X="4.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEABEhAQgBAAQAAAAMAAAAAAAAABQIBQAwAA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerEvent" Collapsed="true">
+    <Position X="7" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TriggerEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TruncatedTimeDistribution" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TruncatedTimeDistribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TypeDefinition" Collapsed="true">
+    <Position X="28.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeDefinition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Value" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Value.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableRateStimulus" Collapsed="true">
+    <Position X="32" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VariableRateStimulus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableRef">
+    <Position X="35.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAQAAABAA=</HashCode>
+      <FileName>VariableRef.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorOperatingSystem" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VendorOperatingSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSModel" Collapsed="true">
+    <Position X="33.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAABAAAAAAAAAAAAAAAAEgAggBgAAAAAAACAAA=</HashCode>
+      <FileName>OSModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrivalCurveEntry" Collapsed="true">
+    <Position X="32" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAACBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArrivalCurveEntry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Variable">
+    <Position X="30.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAFAAEQAAAAQAAABAA=</HashCode>
+      <FileName>Variable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallExpression">
+    <Position X="36" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAIAAAAAQAAAIAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>CallExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Package">
+    <Position X="39" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAhAAAAAAAAAgAAAQAAAAEAAAAAAAAQABABAA=</HashCode>
+      <FileName>Package.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project">
+    <Position X="33.25" Y="15" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAAAAgACAQAAAAEAAAQAAAAQAAABAA=</HashCode>
+      <FileName>Project.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdExpression">
+    <Position X="33.75" Y="18.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAIAAAAAAAAAAQAAAAAAAAAEAAAAAAAAgA=</HashCode>
+      <FileName>IdExpression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Operands">
+    <Position X="47" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAEI=</HashCode>
+      <FileName>Operands.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equation">
+    <Position X="37.5" Y="18.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgIwAAEAAAAQgBAIAAQAIREIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Equation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task">
+    <Position X="29.75" Y="16.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQJAIAQBEAAAAAAAAAIAAASACAAAABAAQAAQQAAQAgA=</HashCode>
+      <FileName>Task.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TiXmlCursor" Collapsed="true">
+    <Position X="25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="__unnamed_enum_0135_1" Collapsed="true">
+    <Position X="25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAACABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiXmlEncoding" Collapsed="true">
+    <Position X="26.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAA=</HashCode>
+      <FileName>tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9.08" />
+</ClassDiagram>

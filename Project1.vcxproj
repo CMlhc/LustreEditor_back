@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3678263c-7ad6-4961-aa17-03b3acdfba8f}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractMemoryElement.h" />
+    <ClInclude Include="AbstractProcess.h" />
+    <ClInclude Include="AccessMultiplicity.h" />
+    <ClInclude Include="AffinityConstraint.h" />
+    <ClInclude Include="ArrivalCurveEntry.h" />
+    <ClInclude Include="ArrivalCurveStimulus.h" />
+    <ClInclude Include="BaseObject.h" />
+    <ClInclude Include="BoundedTimeDistribution.h" />
+    <ClInclude Include="Channel.h" />
+    <ClInclude Include="ChannelEvent.h" />
+    <ClInclude Include="ChannelEventType.h" />
+    <ClInclude Include="Classifier.h" />
+    <ClInclude Include="Clock.h" />
+    <ClInclude Include="ClockFunction.h" />
+    <ClInclude Include="ClockStep.h" />
+    <ClInclude Include="ClockStepList.h" />
+    <ClInclude Include="CommonElements.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ComponentEvent.h" />
+    <ClInclude Include="ComponentEventType.h" />
+    <ClInclude Include="ComponentInstance.h" />
+    <ClInclude Include="ComponentInterface.h" />
+    <ClInclude Include="ComponentPort.h" />
+    <ClInclude Include="ComponentsModel.h" />
+    <ClInclude Include="ComponentStructure.h" />
+    <ClInclude Include="Composite.h" />
+    <ClInclude Include="ComputationItem.h" />
+    <ClInclude Include="ConfigModel.h" />
+    <ClInclude Include="Connector.h" />
+    <ClInclude Include="ConstraintsModel.h" />
+    <ClInclude Include="CoreClassifier.h" />
+    <ClInclude Include="Counter.h" />
+    <ClInclude Include="CurveType.h" />
+    <ClInclude Include="CustomEntity.h" />
+    <ClInclude Include="CustomEvent.h" />
+    <ClInclude Include="CustomProperty.h" />
+    <ClInclude Include="CustomStimulus.h" />
+    <ClInclude Include="DataAgeConstraint.h" />
+    <ClInclude Include="DataCoherencyGroup.h" />
+    <ClInclude Include="DataRate.h" />
+    <ClInclude Include="DataRateUnit.h" />
+    <ClInclude Include="DataSize.h" />
+    <ClInclude Include="DataSizeUnit.h" />
+    <ClInclude Include="DataStability.h" />
+    <ClInclude Include="DataStabilityGroup.h" />
+    <ClInclude Include="DataStabilityLevel.h" />
+    <ClInclude Include="DataType.h" />
+    <ClInclude Include="EntityEvent.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventChain.h" />
+    <ClInclude Include="EventConfig.h" />
+    <ClInclude Include="EventModel.h" />
+    <ClInclude Include="EventSet.h" />
+    <ClInclude Include="EventStimulus.h" />
+    <ClInclude Include="FixedPeriodic.h" />
+    <ClInclude Include="Frequency.h" />
+    <ClInclude Include="FrequencyUnit.h" />
+    <ClInclude Include="HWModel.h" />
+    <ClInclude Include="IAnnotatable.h" />
+    <ClInclude Include="IContinuousValueDeviation.h" />
+    <ClInclude Include="IDiscreteValueDeviation.h" />
+    <ClInclude Include="INamedElement.h" />
+    <ClInclude Include="INamespaceMember.h" />
+    <ClInclude Include="InterfaceKind.h" />
+    <ClInclude Include="InterProcessStimulus.h" />
+    <ClInclude Include="InterProcessTrigger.h" />
+    <ClInclude Include="InterruptController.h" />
+    <ClInclude Include="InterruptSchedulingAlgorithm.h" />
+    <ClInclude Include="IReferable.h" />
+    <ClInclude Include="ISR.h" />
+    <ClInclude Include="ISystem.h" />
+    <ClInclude Include="ITaggable.h" />
+    <ClInclude Include="ITimeDeviation.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="LabelAccess.h" />
+    <ClInclude Include="LabelDataStability.h" />
+    <ClInclude Include="LabelEvent.h" />
+    <ClInclude Include="LabelEventType.h" />
+    <ClInclude Include="ListObject.h" />
+    <ClInclude Include="MainInterface.h" />
+    <ClInclude Include="MappingModel.h" />
+    <ClInclude Include="MemoryClassifier.h" />
+    <ClInclude Include="MemoryDefinition.h" />
+    <ClInclude Include="ModeAssignment.h" />
+    <ClInclude Include="ModeCondition.h" />
+    <ClInclude Include="ModeConditionConjunction.h" />
+    <ClInclude Include="ModeConditionDisjunction.h" />
+    <ClInclude Include="ModeConditionDisjunctionEntry.h" />
+    <ClInclude Include="ModeLabel.h" />
+    <ClInclude Include="ModeLabelCondition.h" />
+    <ClInclude Include="ModeValue.h" />
+    <ClInclude Include="ModeValueCondition.h" />
+    <ClInclude Include="ModeValueList.h" />
+    <ClInclude Include="Namespace.h" />
+    <ClInclude Include="NonAtomicDataCoherency.h" />
+    <ClInclude Include="OperatingSystem.h" />
+    <ClInclude Include="OsAPIOverhead.h" />
+    <ClInclude Include="OsDataConsistency.h" />
+    <ClInclude Include="OsDataConsistencyMode.h" />
+    <ClInclude Include="OsEvent.h" />
+    <ClInclude Include="OsISROverhead.h" />
+    <ClInclude Include="OSModel.h" />
+    <ClInclude Include="OsOverhead.h" />
+    <ClInclude Include="ParameterExtension.h" />
+    <ClInclude Include="PeriodicBurstStimulus.h" />
+    <ClInclude Include="PeriodicStimulus.h" />
+    <ClInclude Include="PeriodicSyntheticStimulus.h" />
+    <ClInclude Include="PhysicalSectionConstraint.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="ProcessChainEvent.h" />
+    <ClInclude Include="ProcessEvent.h" />
+    <ClInclude Include="ProcessEventType.h" />
+    <ClInclude Include="ProcessingUnitDefinition.h" />
+    <ClInclude Include="ProcessPrototype.h" />
+    <ClInclude Include="PropertyConstraintsModel.h" />
+    <ClInclude Include="QualifiedPort.h" />
+    <ClInclude Include="ReferableBaseObject.h" />
+    <ClInclude Include="RelationalOperator.h" />
+    <ClInclude Include="RelativePeriodicStimulus.h" />
+    <ClInclude Include="Requirement.h" />
+    <ClInclude Include="Runnable.h" />
+    <ClInclude Include="CallExpression.h" />
+    <ClInclude Include="Equation.h" />
+    <ClInclude Include="IdExpression.h" />
+    <ClInclude Include="Operands.h" />
+    <ClInclude Include="RunnableEvent.h" />
+    <ClInclude Include="RunnableEventType.h" />
+    <ClInclude Include="RunnableSequencingConstraint.h" />
+    <ClInclude Include="SamplingType.h" />
+    <ClInclude Include="Scenario.h" />
+    <ClInclude Include="Scheduler.h" />
+    <ClInclude Include="SchedulerAssociation.h" />
+    <ClInclude Include="SchedulingParameters.h" />
+    <ClInclude Include="Section.h" />
+    <ClInclude Include="Semaphore.h" />
+    <ClInclude Include="SemaphoreType.h" />
+    <ClInclude Include="SingleStimulus.h" />
+    <ClInclude Include="StimuliModel.h" />
+    <ClInclude Include="Stimulus.h" />
+    <ClInclude Include="StimulusEvent.h" />
+    <ClInclude Include="SubInterface.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="Tag.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="Package.h" />
+    <ClInclude Include="head.h" />
+    <ClInclude Include="Project.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TaskAllocation.h" />
+    <ClInclude Include="TaskScheduler.h" />
+    <ClInclude Include="TaskSchedulingAlgorithm.h" />
+    <ClInclude Include="Ticks.h" />
+    <ClInclude Include="TicksEntry.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="TimeBetaDistribution.h" />
+    <ClInclude Include="TimeBoundaries.h" />
+    <ClInclude Include="TimeConstant.h" />
+    <ClInclude Include="TimeGaussDistribution.h" />
+    <ClInclude Include="TimeHistogram.h" />
+    <ClInclude Include="TimeHistogramEntry.h" />
+    <ClInclude Include="TimeInterval.h" />
+    <ClInclude Include="TimeStatistics.h" />
+    <ClInclude Include="TimeUniformDistribution.h" />
+    <ClInclude Include="TimeUnit.h" />
+    <ClInclude Include="TimeWeibullEstimatorsDistribution.h" />
+    <ClInclude Include="TimingConstraint.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="TriggerEvent.h" />
+    <ClInclude Include="TruncatedTimeDistribution.h" />
+    <ClInclude Include="TypeDefinition.h" />
+    <ClInclude Include="Value.h" />
+    <ClInclude Include="Variable.h" />
+    <ClInclude Include="VariableRateStimulus.h" />
+    <ClInclude Include="VariableRef.h" />
+    <ClInclude Include="VendorOperatingSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractMemoryElement.cpp" />
+    <ClCompile Include="AbstractProcess.cpp" />
+    <ClCompile Include="AccessMultiplicity.cpp" />
+    <ClCompile Include="AffinityConstraint.cpp" />
+    <ClCompile Include="ArrivalCurveEntry.cpp" />
+    <ClCompile Include="ArrivalCurveStimulus.cpp" />
+    <ClCompile Include="BaseObject.cpp" />
+    <ClCompile Include="BoundedTimeDistribution.cpp" />
+    <ClCompile Include="Channel.cpp" />
+    <ClCompile Include="ChannelEvent.cpp" />
+    <ClCompile Include="ChannelEventType.cpp" />
+    <ClCompile Include="Classifier.cpp" />
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="ClockFunction.cpp" />
+    <ClCompile Include="ClockStep.cpp" />
+    <ClCompile Include="ClockStepList.cpp" />
+    <ClCompile Include="CommonElements.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ComponentEvent.cpp" />
+    <ClCompile Include="ComponentEventType.cpp" />
+    <ClCompile Include="ComponentInstance.cpp" />
+    <ClCompile Include="ComponentInterface.cpp" />
+    <ClCompile Include="ComponentPort.cpp" />
+    <ClCompile Include="ComponentsModel.cpp" />
+    <ClCompile Include="ComponentStructure.cpp" />
+    <ClCompile Include="Composite.cpp" />
+    <ClCompile Include="ComputationItem.cpp" />
+    <ClCompile Include="ConfigModel.cpp" />
+    <ClCompile Include="Connector.cpp" />
+    <ClCompile Include="ConstraintsModel.cpp" />
+    <ClCompile Include="CoreClassifier.cpp" />
+    <ClCompile Include="Counter.cpp" />
+    <ClCompile Include="CurveType.cpp" />
+    <ClCompile Include="CustomEntity.cpp" />
+    <ClCompile Include="CustomEvent.cpp" />
+    <ClCompile Include="CustomProperty.cpp" />
+    <ClCompile Include="CustomStimulus.cpp" />
+    <ClCompile Include="DataAgeConstraint.cpp" />
+    <ClCompile Include="DataCoherencyGroup.cpp" />
+    <ClCompile Include="DataRate.cpp" />
+    <ClCompile Include="DataRateUnit.cpp" />
+    <ClCompile Include="DataSize.cpp" />
+    <ClCompile Include="DataSizeUnit.cpp" />
+    <ClCompile Include="DataStability.cpp" />
+    <ClCompile Include="DataStabilityGroup.cpp" />
+    <ClCompile Include="DataStabilityLevel.cpp" />
+    <ClCompile Include="DataType.cpp" />
+    <ClCompile Include="EntityEvent.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="EventChain.cpp" />
+    <ClCompile Include="EventConfig.cpp" />
+    <ClCompile Include="EventModel.cpp" />
+    <ClCompile Include="EventSet.cpp" />
+    <ClCompile Include="EventStimulus.cpp" />
+    <ClCompile Include="FixedPeriodic.cpp" />
+    <ClCompile Include="Frequency.cpp" />
+    <ClCompile Include="FrequencyUnit.cpp" />
+    <ClCompile Include="HWModel.cpp" />
+    <ClCompile Include="IAnnotatable.cpp" />
+    <ClCompile Include="IContinuousValueDeviation.cpp" />
+    <ClCompile Include="IDiscreteValueDeviation.cpp" />
+    <ClCompile Include="INamedElement.cpp" />
+    <ClCompile Include="INamespaceMember.cpp" />
+    <ClCompile Include="InterfaceKind.cpp" />
+    <ClCompile Include="InterProcessStimulus.cpp" />
+    <ClCompile Include="InterProcessTrigger.cpp" />
+    <ClCompile Include="InterruptController.cpp" />
+    <ClCompile Include="InterruptSchedulingAlgorithm.cpp" />
+    <ClCompile Include="IReferable.cpp" />
+    <ClCompile Include="ISR.cpp" />
+    <ClCompile Include="ISystem.cpp" />
+    <ClCompile Include="ITaggable.cpp" />
+    <ClCompile Include="ITimeDeviation.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="LabelAccess.cpp" />
+    <ClCompile Include="LabelDataStability.cpp" />
+    <ClCompile Include="LabelEvent.cpp" />
+    <ClCompile Include="LabelEventType.cpp" />
+    <ClCompile Include="ListObject.cpp" />
+    <ClCompile Include="MainInterface.cpp" />
+    <ClCompile Include="MappingModel.cpp" />
+    <ClCompile Include="MemoryClassifier.cpp" />
+    <ClCompile Include="MemoryDefinition.cpp" />
+    <ClCompile Include="ModeAssignment.cpp" />
+    <ClCompile Include="ModeCondition.cpp" />
+    <ClCompile Include="ModeConditionConjunction.cpp" />
+    <ClCompile Include="ModeConditionDisjunction.cpp" />
+    <ClCompile Include="ModeConditionDisjunctionEntry.cpp" />
+    <ClCompile Include="ModeLabel.cpp" />
+    <ClCompile Include="ModeLabelCondition.cpp" />
+    <ClCompile Include="ModeValue.cpp" />
+    <ClCompile Include="ModeValueCondition.cpp" />
+    <ClCompile Include="ModeValueList.cpp" />
+    <ClCompile Include="Namespace.cpp" />
+    <ClCompile Include="NonAtomicDataCoherency.cpp" />
+    <ClCompile Include="OperatingSystem.cpp" />
+    <ClCompile Include="OsAPIOverhead.cpp" />
+    <ClCompile Include="OsDataConsistency.cpp" />
+    <ClCompile Include="OsDataConsistencyMode.cpp" />
+    <ClCompile Include="OsEvent.cpp" />
+    <ClCompile Include="OsISROverhead.cpp" />
+    <ClCompile Include="OSModel.cpp" />
+    <ClCompile Include="OsOverhead.cpp" />
+    <ClCompile Include="ParameterExtension.cpp" />
+    <ClCompile Include="PeriodicBurstStimulus.cpp" />
+    <ClCompile Include="PeriodicStimulus.cpp" />
+    <ClCompile Include="PeriodicSyntheticStimulus.cpp" />
+    <ClCompile Include="PhysicalSectionConstraint.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="ProcessChainEvent.cpp" />
+    <ClCompile Include="ProcessEvent.cpp" />
+    <ClCompile Include="ProcessEventType.cpp" />
+    <ClCompile Include="ProcessingUnitDefinition.cpp" />
+    <ClCompile Include="ProcessPrototype.cpp" />
+    <ClCompile Include="PropertyConstraintsModel.cpp" />
+    <ClCompile Include="QualifiedPort.cpp" />
+    <ClCompile Include="ReferableBaseObject.cpp" />
+    <ClCompile Include="RelationalOperator.cpp" />
+    <ClCompile Include="RelativePeriodicStimulus.cpp" />
+    <ClCompile Include="Requirement.cpp" />
+    <ClCompile Include="Runnable.cpp" />
+    <ClCompile Include="CallExpression.cpp" />
+    <ClCompile Include="Equation.cpp" />
+    <ClCompile Include="IdExpression.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Operands.cpp" />
+    <ClCompile Include="RunnableEvent.cpp" />
+    <ClCompile Include="RunnableEventType.cpp" />
+    <ClCompile Include="RunnableSequencingConstraint.cpp" />
+    <ClCompile Include="SamplingType.cpp" />
+    <ClCompile Include="Scenario.cpp" />
+    <ClCompile Include="Scheduler.cpp" />
+    <ClCompile Include="SchedulerAssociation.cpp" />
+    <ClCompile Include="SchedulingParameters.cpp" />
+    <ClCompile Include="Section.cpp" />
+    <ClCompile Include="Semaphore.cpp" />
+    <ClCompile Include="SemaphoreType.cpp" />
+    <ClCompile Include="SingleStimulus.cpp" />
+    <ClCompile Include="StimuliModel.cpp" />
+    <ClCompile Include="Stimulus.cpp" />
+    <ClCompile Include="StimulusEvent.cpp" />
+    <ClCompile Include="SubInterface.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="Tag.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="Package.cpp" />
+    <ClCompile Include="Project.cpp" />
+    <ClCompile Include="TaskAllocation.cpp" />
+    <ClCompile Include="TaskScheduler.cpp" />
+    <ClCompile Include="TaskSchedulingAlgorithm.cpp" />
+    <ClCompile Include="Ticks.cpp" />
+    <ClCompile Include="TicksEntry.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="TimeBetaDistribution.cpp" />
+    <ClCompile Include="TimeBoundaries.cpp" />
+    <ClCompile Include="TimeConstant.cpp" />
+    <ClCompile Include="TimeGaussDistribution.cpp" />
+    <ClCompile Include="TimeHistogram.cpp" />
+    <ClCompile Include="TimeHistogramEntry.cpp" />
+    <ClCompile Include="TimeInterval.cpp" />
+    <ClCompile Include="TimeStatistics.cpp" />
+    <ClCompile Include="TimeUniformDistribution.cpp" />
+    <ClCompile Include="TimeUnit.cpp" />
+    <ClCompile Include="TimeWeibullEstimatorsDistribution.cpp" />
+    <ClCompile Include="TimingConstraint.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="TriggerEvent.cpp" />
+    <ClCompile Include="TruncatedTimeDistribution.cpp" />
+    <ClCompile Include="TypeDefinition.cpp" />
+    <ClCompile Include="Value.cpp" />
+    <ClCompile Include="Variable.cpp" />
+    <ClCompile Include="VariableRateStimulus.cpp" />
+    <ClCompile Include="VariableRef.cpp" />
+    <ClCompile Include="VendorOperatingSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

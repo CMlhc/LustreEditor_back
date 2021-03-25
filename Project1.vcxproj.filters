@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinystr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableRef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Equation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Operands.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CallExpression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IdExpression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Package.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Runnable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskScheduler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OsAPIOverhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OSModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatingSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OsOverhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskSchedulingAlgorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SchedulingParameters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeUnit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelAccess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskAllocation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterExtension.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IDiscreteValueDeviation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VendorOperatingSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TicksEntry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessingUnitDefinition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Frequency.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FrequencyUnit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSizeUnit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRateUnit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ITimeDeviation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonElements.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Namespace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StimuliModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyConstraintsModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MappingModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HWModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintsModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentsModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomProperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ITaggable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Classifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="INamespaceMember.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SchedulerAssociation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessChainEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StimulusEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RunnableEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelEventType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelEventType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RunnableEventType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessEventType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentEventType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrivalCurveStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedPeriodic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PeriodicStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PeriodicSyntheticStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PeriodicBurstStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RelativePeriodicStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InterProcessStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableRateStimulus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenario.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeConstant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeHistogram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeInterval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TruncatedTimeDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeGaussDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeHistogramEntry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundedTimeDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplingType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeBoundaries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeStatistics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeUniformDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeWeibullEstimatorsDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeBetaDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreClassifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryClassifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryDefinition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeDefinition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SubInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ISystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Connector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QualifiedPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceKind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnnotatable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IReferable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="INamedElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferableBaseObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OsEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Requirement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RunnableSequencingConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAgeConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStabilityGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCoherencyGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventChain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimingConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AffinityConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalSectionConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OsDataConsistency.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InterruptController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStability.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OsDataConsistencyMode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NonAtomicDataCoherency.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InterruptSchedulingAlgorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OsISROverhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStabilityLevel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessMultiplicity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SemaphoreType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrivalCurveEntry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Counter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InterProcessTrigger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IContinuousValueDeviation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockStep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockStepList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeAssignment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeConditionDisjunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeConditionDisjunctionEntry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeLabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeValueList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeCondition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeConditionConjunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeValueCondition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeLabelCondition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RelationalOperator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMemoryElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEntity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessPrototype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ISR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Section.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelDataStability.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableRef.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Equation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Operands.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CallExpression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IdExpression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Package.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Runnable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskScheduler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ticks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OsAPIOverhead.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OSModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatingSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OsOverhead.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSchedulingAlgorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SchedulingParameters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeUnit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelAccess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskAllocation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterExtension.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IDiscreteValueDeviation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VendorOperatingSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TicksEntry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingUnitDefinition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Frequency.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FrequencyUnit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSizeUnit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRateUnit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ITimeDeviation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonElements.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Namespace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StimuliModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyConstraintsModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MappingModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HWModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintsModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentsModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Value.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ITaggable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Classifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="INamespaceMember.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SchedulerAssociation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessChainEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StimulusEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RunnableEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelEventType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelEventType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RunnableEventType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessEventType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentEventType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrivalCurveStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedPeriodic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PeriodicStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PeriodicSyntheticStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PeriodicBurstStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RelativePeriodicStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterProcessStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableRateStimulus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenario.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeConstant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeHistogram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeInterval.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TruncatedTimeDistribution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeGaussDistribution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeHistogramEntry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundedTimeDistribution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplingType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeBoundaries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeStatistics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeUniformDistribution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeWeibullEstimatorsDistribution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeBetaDistribution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreClassifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryClassifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryDefinition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeDefinition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentStructure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ISystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Connector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QualifiedPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Composite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceKind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IAnnotatable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IReferable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="INamedElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferableBaseObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OsEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Requirement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RunnableSequencingConstraint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAgeConstraint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStabilityGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCoherencyGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventChain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimingConstraint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AffinityConstraint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalSectionConstraint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OsDataConsistency.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterruptController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStability.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OsDataConsistencyMode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NonAtomicDataCoherency.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterruptSchedulingAlgorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OsISROverhead.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStabilityLevel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessMultiplicity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SemaphoreType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrivalCurveEntry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Counter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterProcessTrigger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IContinuousValueDeviation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockStep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockStepList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeAssignment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeConditionDisjunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeConditionDisjunctionEntry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeLabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeValueList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeCondition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeConditionConjunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeValueCondition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeLabelCondition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RelationalOperator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMemoryElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEntity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessPrototype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ISR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Section.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelDataStability.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
